@@ -1,0 +1,8 @@
+{
+    "domain": "awair2mqtt",
+    "name": "awair to MQTT sensor",
+    "documentation": "",
+    "dependencies": [],
+    "codeowners": ["miumida"],
+    "requirements": []
+  }
