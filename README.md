@@ -5,9 +5,10 @@
 ![Version v1.4][version-shield]
 
 AWAIR2MQTT Sensor for Home Assistant 입니다.<br>
-MQTT Broker로 AWAIR Local 데이터를 넣어줍니다.<br>
+MQTT Broker로 AWAIR Local 데이터를 발행합니다.<br>
 
-<br><br>
+<br>
+
 ## Version history
 | Version | Date        | 내용              |
 | :-----: | :---------: | ----------------------- |
@@ -49,7 +50,7 @@ awair2mqtt:
 |broker_port| (옵션) MQTT Broker Port / default(1883) |
 |devices| (필수) AWAIR Devices |
 |client| (옵션) MQTT Client ID / default(awair2mqtt) |
-|scan_interval| (옵션) Sensor Update Term |
+|scan_interval| (옵션) Sensor Update Term / default(120s) |
 
 <br>
 
@@ -69,13 +70,13 @@ awair2mqtt:
 |--|--|--|--|--|--|--|--|--|--|
 |S| 2nd Edition |O|O|O|O|O|O|X|X|
 |M| Mint |O|O|O|O|X|O|O|O|
-|O| Omni |
-|E| Element |
+|O| Omni |O|O|O|O|O|O|O|O|
+|E| Element |O|O|O|O|O|O|X|X|
 
 <br>
 
 ## 참고사이트
-[1] 네이버 HomeAssistant 카페 | 랜이님의 어웨어 로컬센서 설정기 (<https://cafe.naver.com/koreassistant/703>)
+[1] 네이버 HomeAssistant 카페 | 랜이님의 어웨어 로컬센서 설정기 (<https://cafe.naver.com/koreassistant/703>)<br>
 [2] 네이버 HomeAssistant 카페 | 크리틱님의 Awair를 Local로 사용하기 + α (<https://cafe.naver.com/koreassistant/729>)<br>
 
 [version-shield]: https://img.shields.io/badge/version-v1.0.0-orange.svg
