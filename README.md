@@ -60,10 +60,10 @@ awair2mqtt:
 
 ### awair_type 설정값
 
-|코드|값|
-|--|--|
-|S| 2nd Edition |
-|M| Mint |
+|코드|값|Score|Temperature|Humidity|VOC|CO2|PM2.5|Light|Noise|
+|--|--|--|--|--|--|--|--|--|--|
+|S| 2nd Edition |O|O|O|O|O|O|X|X|
+|M| Mint |O|O|O|O|X|O|O|O|
 |O| Omni |
 |E| Element |
 
