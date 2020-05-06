@@ -1,5 +1,5 @@
 {
-  "name": "[KR] AWAIR Local Sensor",
+  "name": "[KR] AWAIR2MQTT Local Sensor",
   "country": "KR",
   "domains": ["sensor"],
   "render_readme": true
