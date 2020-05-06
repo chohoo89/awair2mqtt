@@ -41,9 +41,9 @@ awair2mqtt:
 |broker| (필수) MQTT Broker IP  |
 |broker_user| (필수) MQTT Broker ID |
 |broker_pw| (필수) MQTT Broker Password |
-|broker_port| (옵션) MQTT Broker Port / defaualt(1883) |
+|broker_port| (옵션) MQTT Broker Port / default(1883) |
 |devices| (필수) AWAIR Devices |
-|client| (옵션) MQTT Client ID |
+|client| (옵션) MQTT Client ID / default(awair2mqtt) |
 |scan_interval| (옵션) Sensor Update Term |
 
 <br>
