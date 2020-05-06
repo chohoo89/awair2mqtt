@@ -47,3 +47,24 @@ awair2mqtt:
 |scan_interval| (옵션) Sensor Update Term |
 
 <br>
+
+### devices 설정값
+
+|옵션|값|
+|--|--|
+|awair_ip| (필수) AWAIR Local IP |
+|awair_id| (필수) AWAIR ID, 띄워쓰기(X), 한글(X) |
+|awair_type| (필수) AWAIR Model Code : S/O/M/E |
+
+<br>
+
+### awair_type 설정값
+
+|옵션|값|
+|--|--|
+|S| 2nd Edition |
+|M| Mint |
+|O| Omni |
+|E| Element |
+
+<br>
