@@ -60,7 +60,7 @@ awair2mqtt:
 
 ### awair_type 설정값
 
-|옵션|값|
+|코드|값|
 |--|--|
 |S| 2nd Edition |
 |M| Mint |
