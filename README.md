@@ -7,6 +7,9 @@
 AWAIR2MQTT Sensor for Home Assistant 입니다.<br>
 MQTT Broker로 AWAIR Local 데이터를 발행합니다.<br>
 
+![screenshot_1](https://github.com/miumida/awair2mqtt/blob/master/image/awair2mqtt.png?raw=true)<br>
+![screenshot_2](https://github.com/miumida/awair2mqtt/blob/master/image/awair2mqtt_sensor.png?raw=true)<br>
+
 <br>
 
 ## Version history
